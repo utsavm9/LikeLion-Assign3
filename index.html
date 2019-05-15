@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Assignment 3 | LikeLion JS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="testbench.js" defer></script>
+</head>
+
+
+<body>
+    <nav class="navbar navbar-light sharp-border">
+        <a href="/study/index" class="navbar-brand"><span id="navbar-R">LikeLion JS</span> Problem 2</a>
+    </nav>
+
+    <main id="changeColorOf">
+        <div class="row">
+            <div class="col-lg-3 col-md-2">
+                <!-- A bad hack to center align the box. Your secret Assignment: Find me a better way to do this. -->
+            </div>
+            <div class="col-lg-6 col-md-8">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <strong>
+                            Part 1: Gluing HTML and JS
+                        </strong>
+                    </div>
+
+                    <div class="panel-body">
+                        <p>In this part, we will prepare to answer the assignment. Make a new JS file and glue it to the
+                            HTML file of this assignment.</p>
+                        <ul>
+                            <li>Determine if your code needs to be executed before or after our JavaScript code in the
+                                file <code>testbench.js</code>, given the fact that your code will call functions
+                                defined in our file.</li>
+                            <li>Call the function <code>checkAnswer1</code> in your file. This function takes no
+                                argument.</li>
+                            <li>Do not change or overwrite your previous answers as you progress through this
+                                assignment.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row no-show" id="part2">
+            <div class="col-lg-3 col-md-2">
+                <!-- A bad hack to center align the box. Your secret Assignment: Find me a better way to do this. -->
+            </div>
+            <div class="col-lg-6 col-md-8">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <strong>
+                            Part 2: Getting element by ID
+                        </strong>
+                    </div>
+
+                    <form class="flex-rightly">
+                        <input type="text" class="form-control sharp-border" id="userInputPart2"
+                            placeholder="Randomly Text">
+                    </form>
+
+                    <div class="panel-body">
+                        <p>Assume that the user filled out the above text box for you. Get the string from the textbox
+                            and then pass your string to the function <code>checkAnswer2</code>. This function takes one
+                            argument which is the string in the textbox.</p>
+                        <ul>
+                            <li>The text box element has the ID of <code>userInput2</code>.</li>
+                        </ul>
+                    </div>
+
+                    <div class="panel-body">
+                        Edit your code in the file you made before. <u>Modify no other file.</u> Hint: Are you sure
+                        about the name of the HTML tag of the text box above?
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row no-show" id="part3">
+            <div class="col-lg-3 col-md-2">
+                <!-- A bad hack to center align the box. Your secret Assignment: Find me a better way to do this. -->
+            </div>
+            <div class="col-lg-6 col-md-8">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <strong>
+                            Part 3: Event Handling
+                        </strong>
+                    </div>
+
+                    <form class="flex-rightly">
+                        <input type="text" class="form-control sharp-border" id="userInputPart3"
+                            placeholder="User Secret Text">
+                        <button type="button" class="btn btn-success sharp-border" id="buttonPart3">Submit</button>
+                    </form>
+
+                    <div class="panel-body">
+                        <p>Always, user takes time to fill out a form. That is why we provide a button to be clicked
+                            before we start processing the input. </p>
+                        <p>For this part, whenever the button is clicked, it should pass the string in the textbox
+                            (pre-filled for you here) and the event itself to the checker function. The function is
+                            <code>checkAnswer3</code> and it takes two arguments, a string and an event object, in
+                            order.</p>
+                        <ul>
+                            <li>The text box element has the ID of <code>userInput3</code>.</li>
+                            <li>The button has the ID of <code>buttonPart3</code>.</li>
+                        </ul>
+                    </div>
+
+                    <div class="panel-body">
+                        Edit your code in the file you made before. <u>Modify no other file.</u>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row no-show" id="part4">
+            <div class="col-lg-3 col-md-2">
+                <!-- A bad hack to center align the box. Your secret Assignment: Find me a better way to do this. -->
+            </div>
+            <div class="col-lg-6 col-md-8">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <strong>
+                            Part 4: So many user inputs
+                        </strong>
+                    </div>
+
+                    <form>
+                        <div id="many-inputs">
+                            <input type="text" class="form-control sharp-border forms" id="userInputPart4-0"
+                                placeholder="User Secret Text">
+                        </div>
+                    </form>
+
+                    <div class="panel-body">
+                        <p>The user want too many food items. Determine how many text boxes are there above. There will
+                            not be more than 10 elements ever.
+                            Pass the number of textboxes above to the checker function. The function is
+                            <code>checkAnswer4</code> and it takes one argument which is a number.</p>
+                        <ul>
+                            <li>The first text box element has the ID of <code>userInputPart4-0</code>.</li>
+                            <li>The second text box element has the ID of <code>userInputPart4-1</code> and so on</li>
+                        </ul>
+                    </div>
+
+                    <div class="panel-body">
+                        Edit your code in the file you made before. <u>Modify no other file.</u>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>
